@@ -8,14 +8,21 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.brand {
-    font-size: 32px;
-    font-weight: bolder;
-    font-family: 'Cinzel Decorative', serif;
-}
+
 .nav {
-    font-size: 17px;
+		font-size: 18px;
+		width: 200px;
 }
+
+.menu-item {
+		display: inline-table;
+}
+
+.brand {
+		font-size: 30px;
+		font-weight: bolder;
+}
+
 .header-wrapper {
-    padding: 0.5em 0;
+		padding: 0.6em 0;
 }
