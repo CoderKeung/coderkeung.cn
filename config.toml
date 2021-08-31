@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://coderkeung.cn/"
-title = "C · K"
+title = "C·K"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -12,7 +12,7 @@ copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = "nvim"
+newContentEditor = "open -a typora"
 
 # i18n
 defaultContentLanguage = "zh"
