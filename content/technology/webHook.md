@@ -179,12 +179,12 @@ server {
 
 在存储的 Github 仓库的设置选项中找到 Webhooks 并添加新的 webhook：
 
-![webHook-1](./img/webHook-1.jpg)
+![webHook-1](/img/webHook-1.jpg)
 
 对添加的 webhook 进行相应的设置：
 
-![webhook-2](./img/webhook-2.jpg)
+![webhook-2](/img/webhook-2.jpg)
 
-![webhook-3](./img/webhook-3.jpg)
+![webhook-3](/img/webhook-3.jpg)
 
 如此下来，在本地更改博客文件和更新文件，只要推送到 Github 仓库，便会同步部署到服务器啦！
