@@ -3,7 +3,7 @@ title = "关于"
 date = 2021-08-30T19:07:38+08:00
 +++
 
-<video src="https://gateway.pinata.cloud/ipfs/QmRHnasGUSu2x4epPwY6ReeYVYrBJkJaAMXZ9TJTrmj1QK" type="video/mp4" controls=""></video>
+<video src="/video/A_Sky_Full_Of_Stars.mp4" type="video/mp4" controls=""></video>
 
 <h2 class="viva-la-vida">A Sky Full Of Stars</h2>
 <p style="text-align:center;font-size:14px"><em>
