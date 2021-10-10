@@ -4,6 +4,8 @@ date = 2021-10-09T16:48:00+08:00
 draft = false
 +++
 
+ [GitHub zh](https://git-scm.com/book/zh/v2) 
+
 - **Git配置文件目录**
 
 ```bash
