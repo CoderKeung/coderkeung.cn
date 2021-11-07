@@ -9,6 +9,7 @@ draft = false
 
 - **Git配置文件目录**
 
+<!--more-->
 ```bash
 # --system 写入系统文件目录 /etc/gitconfig 
 # --global 写入本地文件目录 ~/.gitconfig 或 ~/.config/git/config 
