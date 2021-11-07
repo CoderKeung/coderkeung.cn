@@ -1,0 +1,3 @@
+[submodule "themes/hugo-alx"]
+	path = themes/hugo-alx
+	url = https://github.com/CoderKeung/hugo-alx
