@@ -2,8 +2,6 @@
 title = "博客自动部署"
 date = 2021-08-31T09:18:56+08:00
 draft = false
-dropCap = false
-
 +++
 
 ## 前言

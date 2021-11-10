@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://coderkeung.cn/'
 languageCode = 'zh-cn'
 title = "人间游荡"
 theme = "hugo-alx"
@@ -15,9 +15,9 @@ theme = "hugo-alx"
     url = "/technology/"
     weight = 3
   [[menu.main]]
-    name = "标签"
+    name = "主页"
     pre = "tag"
-    url = "/tags/"
+    url = "/"
     weight = 1
 
 
@@ -37,6 +37,12 @@ name = "CoderKeung"
 description = "努力学习，不准赖床!"
 avatar = "/img/avatar.png"
 poem = "游荡人间二十载，身无寸技"
+indent = false
+showRecentArticle = true
+showTags = true
+showAllArticle = true
+enableCaption = true
+captionPrefix = "◎"
 
 [taxonomies]
     tag = "tags"
