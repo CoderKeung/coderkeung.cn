@@ -1,0 +1,50 @@
+baseURL = 'https://coderkeung.cn/'
+languageCode = 'zh-cn'
+title = "人间游荡"
+theme = "hugo-alx"
+
+[menu]
+  [[menu.main]]
+    name = "日常"
+    pre = "pen-tool"
+    url = "/daily/"
+    weight = 2
+  [[menu.main]]
+    name = "技术"
+    pre = "codepen"
+    url = "/technology/"
+    weight = 3
+  [[menu.main]]
+    name = "主页"
+    pre = "tag"
+    url = "/"
+    weight = 1
+
+
+
+  [[menu.social]]
+    name = "Github"
+    url = "https://github.com/CoderKeung"
+    pre = "github"
+  [[menu.social]]
+    name = "twitter"
+    url = "https://twitter.com/coderkeung"
+    pre = "twitter"
+
+[params]
+math = true
+name = "CoderKeung"
+description = "努力学习，不准赖床!"
+avatar = "/img/avatar.png"
+poem = "游荡人间二十载，身无寸技"
+indent = false
+showRecentArticle = true
+showTags = true
+showAllArticle = true
+enableCaption = true
+captionPrefix = "◎"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    archive = "archives"
