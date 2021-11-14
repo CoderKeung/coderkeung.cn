@@ -6,6 +6,12 @@ theme = 'hugo-paper'
 [params]
 author = 'CoderKeung'
 notoFont = true
+captionPrefix = '◎'
+enableCaption = true
+homeDirection = "游荡人间"
+homeDirectionSub = "人生就是自己的往事和他人的序章"
+postURL = "/posts/"
+postURLName = "博客"
 
 [markup]
   [markup.highlight]
