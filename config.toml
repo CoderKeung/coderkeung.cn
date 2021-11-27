@@ -1,4 +1,4 @@
-baseURL = 'https://coderkeung.cn/'
+baseURL = 'https://atom.coderkeung.cn/'
 languageCode = 'zh-cn'
 title = "人间游荡"
 theme = 'hugo-paper'
