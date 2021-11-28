@@ -10,6 +10,7 @@ captionPrefix = '◎'
 enableCaption = true
 homeDirection = "游荡人间"
 homeDirectionSub = "人生就是自己的往事和他人的序章"
+homeTopPicture = "/img/HomeTop.png"
 postURL = "/daily/"
 postURLName = "博客"
 
