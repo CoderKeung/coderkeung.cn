@@ -2,6 +2,7 @@
 title = "博客自动部署"
 date = 2021-08-31T09:18:56+08:00
 draft = false
+toc = true
 +++
 
 ## 前言
@@ -123,7 +124,7 @@ server {
   listen [::]:443 ssl;
 
 # 配置 Https
-  ssl_certificate       /root/vpn/coderkeung.cn.crt; 
+  ssl_certificate       /root/vpn/coderkeung.cn.crt;
   ssl_certificate_key   /root/vpn/coderkeung.cn.key;
   ssl_session_timeout 1d;
   ssl_session_cache shared:MozSSL:10m;
@@ -139,9 +140,9 @@ server {
       index  index.php index.html index.htm;
         }
    # NodeJS 将 Web 服务跑在了 8888 端口，我们可以用 Nginx 反向代理到 80 端口
-   location /webhook { 
+   location /webhook {
      alias /root/webhook;
-     proxy_pass http://127.0.0.1:8888;  
+     proxy_pass http://127.0.0.1:8888;
    }
    error_page 404 /404.html;
        location = /40x.html {
