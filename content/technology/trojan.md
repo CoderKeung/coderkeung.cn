@@ -4,7 +4,7 @@ date = 2021-12-05T09:39:25+08:00
 draft = false
 indent = false
 initial = false
-toc = false
+toc = true
 +++
 
 ## 安装 Trojan
@@ -27,7 +27,7 @@ sudo bash -c "$(wget -O- https://raw.githubusercontent.com/trojan-gfw/trojan-qui
 
 ## 修改 Trojan 配置文件
 
-```toml
+```yaml
 {
     "run_type": "client",
     "local_addr": "127.0.0.1",
@@ -112,5 +112,5 @@ proxychains curl ip.gs
 ```bash
 vim ~/.bashrc
 # 添加
-alisa p="proxychains"
+alias p="proxychains"
 ```
