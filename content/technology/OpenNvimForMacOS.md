@@ -25,7 +25,7 @@ on run {input, parameters}
 
     set filePath to POSIX path of input
 
-    tell application "/Applications/Kitty.app/Contents/MacOS/kitty"
+    tell application "/Applications/kitty.app/Contents/MacOS/kitty"
       activate
       tell application "System Events"
         keystroke "nvim \"" & filePath & "\""
